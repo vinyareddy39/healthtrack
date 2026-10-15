@@ -69,7 +69,6 @@ services:
       - SMTP_PASS=${SMTP_PASS}
       - SMTP_FROM=${SMTP_FROM}
       - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN}
-      - ENABLE_META_WHATSAPP_API=${ENABLE_META_WHATSAPP_API:-false}
     depends_on:
       mongo:
         condition: service_healthy
