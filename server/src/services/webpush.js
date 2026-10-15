@@ -1,7 +1,12 @@
 const webpush = require('web-push');
 const config = require('../config/env');
 
-if (config.VAPID_PUBLIC_KEY && config.VAPID_PRIVATE_KEY && config.VAPID_PRIVATE_KEY !== 'AVP_TEST_KEY') {
+if (
+  config.VAPID_PUBLIC_KEY &&
+  config.VAPID_PRIVATE_KEY &&
+  config.VAPID_PRIVATE_KEY !== 'AVP_TEST_KEY' &&
+  !config.VAPID_PRIVATE_KEY.startsWith('AVP_')
+) {
   try {
     webpush.setVapidDetails(
       config.VAPID_SUBJECT,
