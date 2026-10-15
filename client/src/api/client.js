@@ -67,8 +67,13 @@ export async function apiFetch(endpoint, options = {}) {
     headers
   });
 
-  // Intercept 401 responses (except during login check itself where 401 is normal validation error)
-  if (response.status === 401 && !endpoint.includes('/auth/login') && !endpoint.includes('/auth/register')) {
+  // Intercept 401 responses (except during login, register, or session check)
+  if (
+    response.status === 401 &&
+    !endpoint.includes('/auth/login') &&
+    !endpoint.includes('/auth/register') &&
+    !endpoint.includes('/auth/me')
+  ) {
     notifyUnauthorized();
   }
 
