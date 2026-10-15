@@ -13,7 +13,7 @@ module.exports = {
   NODE_ENV: process.env.NODE_ENV || 'development',
   PORT: parseInt(process.env.PORT, 10) || 5000,
   CLIENT_URL: process.env.CLIENT_URL || 'http://localhost:5173',
-  MONGODB_URI: process.env.MONGODB_URI || 'mongodb://localhost:27017/recovertrack',
+  MONGODB_URI: process.env.MONGODB_URI || process.env.MONGO_URL || 'mongodb://localhost:27017/recovertrack',
   
   // Security
   ENCRYPTION_KEY: process.env.ENCRYPTION_KEY,
