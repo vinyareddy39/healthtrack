@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useState, useEffect, useCallback } from 'react';
-import { apiFetch, onUnauthorized } from '../api/client';
+import { apiFetch, onUnauthorized, getAuthToken, setAuthToken } from '../api/client';
 
 const AuthContext = createContext(null);
 
@@ -8,13 +8,19 @@ export function AuthProvider({ children }) {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  // Restore session from httpOnly cookie on mount
+  // Restore session from token on mount
   const checkAuth = useCallback(async () => {
+    const token = getAuthToken();
+    if (!token) {
+      setUser(null);
+      setLoading(false);
+      return;
+    }
+
     try {
       setLoading(true);
       const res = await apiFetch('/auth/me');
       if (res.ok && res.data) {
-        // Extract user object (supports { id, name, role } or { user: ... })
         const userData = res.data.user || res.data;
         setUser({
           id: userData.id || userData._id,
@@ -25,10 +31,11 @@ export function AuthProvider({ children }) {
           accessibleProfileIds: userData.accessibleProfileIds
         });
       } else {
+        setAuthToken(null);
         setUser(null);
       }
     } catch (err) {
-      console.error('Session restore failed:', err);
+      setAuthToken(null);
       setUser(null);
     } finally {
       setLoading(false);
@@ -40,6 +47,7 @@ export function AuthProvider({ children }) {
 
     // Listen for 401 Unauthorized signals from API client
     const unsubscribe = onUnauthorized(() => {
+      setAuthToken(null);
       setUser(null);
       if (window.location.pathname !== '/login' && window.location.pathname !== '/register') {
         window.location.href = '/login';
@@ -62,6 +70,10 @@ export function AuthProvider({ children }) {
         const errorMsg = res.data?.error || res.data?.message || 'Login failed';
         setError(errorMsg);
         return { success: false, error: errorMsg };
+      }
+
+      if (res.data?.token) {
+        setAuthToken(res.data.token);
       }
 
       const userData = res.data.user || res.data;
@@ -94,6 +106,10 @@ export function AuthProvider({ children }) {
         return { success: false, error: errorMsg };
       }
 
+      if (res.data?.token) {
+        setAuthToken(res.data.token);
+      }
+
       return { success: true, data: res.data };
     } catch (err) {
       const errorMsg = err.message || 'An unexpected error occurred during registration';
@@ -109,6 +125,7 @@ export function AuthProvider({ children }) {
     } catch (err) {
       console.error('Logout error:', err);
     } finally {
+      setAuthToken(null);
       setUser(null);
       window.location.href = '/login';
     }

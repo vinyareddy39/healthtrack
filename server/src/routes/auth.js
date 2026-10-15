@@ -21,14 +21,14 @@ const DUMMY_BCRYPT_HASH = '$2a$12$K1r.mZ0eDkMsm6uC2l7cce6BkVfA6v5V8S67zS7gXg3xK7
 
 const COOKIE_OPTIONS = {
   httpOnly: true,
-  sameSite: 'lax',
+  sameSite: config.NODE_ENV === 'production' ? 'none' : 'lax',
   secure: config.NODE_ENV === 'production',
   maxAge: 24 * 60 * 60 * 1000 // 24 hours
 };
 
 const CLEAR_COOKIE_OPTIONS = {
   httpOnly: true,
-  sameSite: 'lax',
+  sameSite: config.NODE_ENV === 'production' ? 'none' : 'lax',
   secure: config.NODE_ENV === 'production'
 };
 
@@ -96,10 +96,14 @@ router.post('/register', authLimiter, async (req, res) => {
       req
     });
 
+    const token = signToken(user);
+    setAuthCookies(res, token);
+
     return res.status(201).json({
       id: user._id.toString(),
       name: user.name,
-      role: user.role
+      role: user.role,
+      token
     });
   } catch (err) {
     if (err.code === 11000) {
@@ -173,7 +177,8 @@ router.post('/login', authLimiter, async (req, res) => {
     return res.json({
       id: user._id.toString(),
       name: user.name,
-      role: user.role
+      role: user.role,
+      token
     });
   } catch (err) {
     return res.status(500).json({ success: false, error: 'Login error: ' + err.message });

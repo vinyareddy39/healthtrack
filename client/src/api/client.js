@@ -10,7 +10,26 @@ export function onUnauthorized(callback) {
   };
 }
 
+export function getAuthToken() {
+  try {
+    return localStorage.getItem('auth_token');
+  } catch (_) {
+    return null;
+  }
+}
+
+export function setAuthToken(token) {
+  try {
+    if (token) {
+      localStorage.setItem('auth_token', token);
+    } else {
+      localStorage.removeItem('auth_token');
+    }
+  } catch (_) {}
+}
+
 export function notifyUnauthorized() {
+  setAuthToken(null);
   unauthorizedListeners.forEach(cb => {
     try {
       cb();
@@ -22,7 +41,7 @@ export function notifyUnauthorized() {
 
 /**
  * Universal fetch wrapper for RecoverTrack API
- * Always sends credentials: 'include' for secure cookie authentication
+ * Sends credentials: 'include' for cookies AND Authorization: Bearer for cross-domain support
  * Automatically intercepts 401 responses to clear auth state and redirect to login
  */
 export async function apiFetch(endpoint, options = {}) {
@@ -32,6 +51,11 @@ export async function apiFetch(endpoint, options = {}) {
     'Accept': 'application/json',
     ...(options.headers || {})
   };
+
+  const token = getAuthToken();
+  if (token && !headers['Authorization']) {
+    headers['Authorization'] = `Bearer ${token}`;
+  }
 
   if (options.body && !(options.body instanceof FormData) && !headers['Content-Type']) {
     headers['Content-Type'] = 'application/json';
