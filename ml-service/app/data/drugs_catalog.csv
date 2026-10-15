@@ -1,0 +1,371 @@
+name,category,default_strength,default_form,default_food_timing,default_frequency
+Paracetamol,Analgesic/Antipyretic,650mg,tablet,after food,TDS
+Dolo 650,Analgesic/Antipyretic,650mg,tablet,after food,TDS
+Crocin,Analgesic/Antipyretic,500mg,tablet,after food,TDS
+Calpol,Analgesic/Antipyretic,500mg,tablet,after food,TDS
+Ibuprofen,NSAID,400mg,tablet,after food,BD
+Combiflam,NSAID/Analgesic,400mg/325mg,tablet,after food,BD
+Tramadol,Opioid Analgesic,50mg,capsule,after food,BD
+Tramazac,Opioid Analgesic,50mg,capsule,after food,BD
+Ultracet,Analgesic,37.5mg/325mg,tablet,after food,BD
+Diclofenac,NSAID,50mg,tablet,after food,BD
+Voveran,NSAID,50mg,tablet,after food,BD
+Aceclofenac,NSAID,100mg,tablet,after food,BD
+Zerodol-P,NSAID/Analgesic,100mg/325mg,tablet,after food,BD
+Zerodol-SP,NSAID/Enzyme,100mg/325mg/15mg,tablet,after food,BD
+Serratiopeptidase,Anti-inflammatory,10mg,tablet,before food,BD
+Ketorolac,NSAID,10mg,tablet,after food,TDS
+Ketorol-DT,NSAID,10mg,dispersible tablet,after food,TDS
+Naproxen,NSAID,250mg,tablet,after food,BD
+Naprosyn,NSAID,500mg,tablet,after food,BD
+Etoricoxib,COX-2 Inhibitor,90mg,tablet,after food,OD
+Nucoxia,COX-2 Inhibitor,90mg,tablet,after food,OD
+Celecoxib,COX-2 Inhibitor,100mg,capsule,after food,BD
+Pantoprazole,PPI/Antacid,40mg,tablet,before food,OD
+Pan 40,PPI/Antacid,40mg,tablet,before food,OD
+Pantocid,PPI/Antacid,40mg,tablet,before food,OD
+Pantop-D,PPI/Prokinetic,40mg/30mg,capsule,before food,OD
+Omeprazole,PPI/Antacid,20mg,capsule,before food,OD
+Omez,PPI/Antacid,20mg,capsule,before food,OD
+Rabeprazole,PPI/Antacid,20mg,tablet,before food,OD
+Rablet,PPI/Antacid,20mg,tablet,before food,OD
+Razo 20,PPI/Antacid,20mg,tablet,before food,OD
+Esomeprazole,PPI/Antacid,40mg,tablet,before food,OD
+Nexpro,PPI/Antacid,40mg,tablet,before food,OD
+Ranitidine,H2 Blocker,150mg,tablet,before food,BD
+Rantac,H2 Blocker,150mg,tablet,before food,BD
+Famotidine,H2 Blocker,20mg,tablet,before food,BD
+Sucralfate,Mucosal Protectant,1g,suspension,before food,TDS
+Amoxicillin,Antibiotic,500mg,capsule,after food,TDS
+Augmentin 625,Antibiotic,625mg,tablet,after food,BD
+Amoxyclav,Antibiotic,625mg,tablet,after food,BD
+Moxikind-CV,Antibiotic,625mg,tablet,after food,BD
+Azithromycin,Antibiotic,500mg,tablet,after food,OD
+Azee 500,Antibiotic,500mg,tablet,after food,OD
+Azithral,Antibiotic,500mg,tablet,after food,OD
+Cefixime,Antibiotic,200mg,tablet,after food,BD
+Taxim-O,Antibiotic,200mg,tablet,after food,BD
+Zifi 200,Antibiotic,200mg,tablet,after food,BD
+Cefuroxime,Antibiotic,500mg,tablet,after food,BD
+Ceftum,Antibiotic,500mg,tablet,after food,BD
+Cefpodoxime,Antibiotic,200mg,tablet,after food,BD
+Gudcef 200,Antibiotic,200mg,tablet,after food,BD
+Monocef-O,Antibiotic,200mg,tablet,after food,BD
+Ciprofloxacin,Antibiotic,500mg,tablet,after food,BD
+Ciplox 500,Antibiotic,500mg,tablet,after food,BD
+Levofloxacin,Antibiotic,500mg,tablet,after food,OD
+Levomac,Antibiotic,500mg,tablet,after food,OD
+Metronidazole,Antimicrobial,400mg,tablet,after food,TDS
+Flagyl 400,Antimicrobial,400mg,tablet,after food,TDS
+Doxycycline,Antibiotic,100mg,capsule,after food,BD
+Doxicip,Antibiotic,100mg,capsule,after food,BD
+Linezolid,Antibiotic,600mg,tablet,after food,BD
+Lizomac,Antibiotic,600mg,tablet,after food,BD
+Clindamycin,Antibiotic,300mg,capsule,after food,TDS
+Dalacin C,Antibiotic,300mg,capsule,after food,TDS
+Ondansetron,Antiemetic,4mg,tablet,before food,TDS
+Emeset 4,Antiemetic,4mg,tablet,before food,TDS
+Zofran,Antiemetic,4mg,tablet,before food,TDS
+Domperidone,Antiemetic/Prokinetic,10mg,tablet,before food,TDS
+Vomitstop,Antiemetic,10mg,tablet,before food,TDS
+Metoclopramide,Antiemetic,10mg,tablet,before food,TDS
+Perinorm,Antiemetic,10mg,tablet,before food,TDS
+Granisetron,Antiemetic,1mg,tablet,before food,OD
+Aprepitant,Antiemetic,125mg,capsule,with food,OD
+Enoxaparin,Anticoagulant,40mg,injection,any time,OD
+Clexane,Anticoagulant,40mg,injection,any time,OD
+Heparin,Anticoagulant,5000IU,injection,any time,BD
+Aspirin,Antiplatelet,75mg,tablet,after food,OD
+Ecosprin 75,Antiplatelet,75mg,tablet,after food,OD
+Ecosprin 150,Antiplatelet,150mg,tablet,after food,OD
+Clopidogrel,Antiplatelet,75mg,tablet,after food,OD
+Clopilet,Antiplatelet,75mg,tablet,after food,OD
+Deplatt,Antiplatelet,75mg,tablet,after food,OD
+Warfarin,Anticoagulant,5mg,tablet,after food,OD
+Acitrom,Anticoagulant,2mg,tablet,after food,OD
+Apixaban,Anticoagulant,2.5mg,tablet,with food,BD
+Eliquis,Anticoagulant,5mg,tablet,with food,BD
+Rivaroxaban,Anticoagulant,10mg,tablet,with food,OD
+Xarelto,Anticoagulant,10mg,tablet,with food,OD
+Dabigatran,Anticoagulant,110mg,capsule,after food,BD
+Pradaxa,Anticoagulant,110mg,capsule,after food,BD
+Atorvastatin,Statin/Lipid Lowering,10mg,tablet,at bedtime,OD
+Atorva 10,Statin/Lipid Lowering,10mg,tablet,at bedtime,OD
+Atorva 20,Statin/Lipid Lowering,20mg,tablet,at bedtime,OD
+Lipitor,Statin/Lipid Lowering,20mg,tablet,at bedtime,OD
+Rosuvastatin,Statin/Lipid Lowering,10mg,tablet,at bedtime,OD
+Rosuvas 10,Statin/Lipid Lowering,10mg,tablet,at bedtime,OD
+Metformin,Antidiabetic,500mg,tablet,after food,BD
+Glycomet 500,Antidiabetic,500mg,tablet,after food,BD
+Glycomet-GP 1,Antidiabetic,500mg/1mg,tablet,before food,OD
+Glimepiride,Antidiabetic,1mg,tablet,before food,OD
+Amaryl 1,Antidiabetic,1mg,tablet,before food,OD
+Vildagliptin,Antidiabetic,50mg,tablet,after food,BD
+Galvus 50,Antidiabetic,50mg,tablet,after food,BD
+Sitagliptin,Antidiabetic,100mg,tablet,after food,OD
+Januvia 100,Antidiabetic,100mg,tablet,after food,OD
+Dapagliflozin,Antidiabetic,10mg,tablet,before food,OD
+Forxiga 10,Antidiabetic,10mg,tablet,before food,OD
+Empagliflozin,Antidiabetic,10mg,tablet,before food,OD
+Jardiance 10,Antidiabetic,10mg,tablet,before food,OD
+Amlodipine,Antihypertensive,5mg,tablet,after food,OD
+Amlopres 5,Antihypertensive,5mg,tablet,after food,OD
+Telmisartan,Antihypertensive,40mg,tablet,after food,OD
+Telma 40,Antihypertensive,40mg,tablet,after food,OD
+Telma-H,Antihypertensive,40mg/12.5mg,tablet,after food,OD
+Losartan,Antihypertensive,50mg,tablet,after food,OD
+Repace 50,Antihypertensive,50mg,tablet,after food,OD
+Metoprolol,Beta Blocker,25mg,tablet,after food,BD
+Betaloc 25,Beta Blocker,25mg,tablet,after food,BD
+Metolar-XR 50,Beta Blocker,50mg,tablet,after food,OD
+Bisoprolol,Beta Blocker,2.5mg,tablet,after food,OD
+Concor 2.5,Beta Blocker,2.5mg,tablet,after food,OD
+Atenolol,Beta Blocker,50mg,tablet,after food,OD
+Aten 50,Beta Blocker,50mg,tablet,after food,OD
+Enalapril,ACE Inhibitor,5mg,tablet,after food,BD
+Ramipril,ACE Inhibitor,2.5mg,tablet,after food,OD
+Cardace 2.5,ACE Inhibitor,2.5mg,tablet,after food,OD
+Furosemide,Diuretic,40mg,tablet,morning,OD
+Lasix 40,Diuretic,40mg,tablet,morning,OD
+Torsemide,Diuretic,10mg,tablet,morning,OD
+Dytor 10,Diuretic,10mg,tablet,morning,OD
+Spironolactone,Diuretic,25mg,tablet,morning,OD
+Aldactone 25,Diuretic,25mg,tablet,morning,OD
+Pregabalin,Neuropathic Pain,75mg,capsule,at bedtime,OD
+Pregeb 75,Neuropathic Pain,75mg,capsule,at bedtime,OD
+Gabapentin,Neuropathic Pain,300mg,capsule,at bedtime,OD
+Gabapin 300,Neuropathic Pain,300mg,capsule,at bedtime,OD
+Amitriptyline,Neuropathic Pain/Sedative,10mg,tablet,at bedtime,OD
+Tryptomer 10,Neuropathic Pain/Sedative,10mg,tablet,at bedtime,OD
+Duloxetine,Neuropathic Pain,20mg,capsule,after food,OD
+Cymbalta 20,Neuropathic Pain,20mg,capsule,after food,OD
+Thiocolchicoside,Muscle Relaxant,4mg,capsule,after food,BD
+Myoril 4,Muscle Relaxant,4mg,capsule,after food,BD
+Chlorzoxazone,Muscle Relaxant,250mg,tablet,after food,BD
+Baclofen,Muscle Relaxant,10mg,tablet,after food,BD
+Liofen 10,Muscle Relaxant,10mg,tablet,after food,BD
+Tizanidine,Muscle Relaxant,2mg,tablet,after food,BD
+Sirdalud 2,Muscle Relaxant,2mg,tablet,after food,BD
+Alprazolam,Anxiolytic,0.25mg,tablet,at bedtime,OD
+Alprax 0.25,Anxiolytic,0.25mg,tablet,at bedtime,OD
+Clonazepam,Anticonvulsant/Anxiolytic,0.5mg,tablet,at bedtime,OD
+Clona 0.5,Anticonvulsant/Anxiolytic,0.5mg,tablet,at bedtime,OD
+Zolpidem,Sedative,5mg,tablet,at bedtime,OD
+Zolfresh 5,Sedative,5mg,tablet,at bedtime,OD
+Diazepam,Anxiolytic,5mg,tablet,at bedtime,OD
+Valium 5,Anxiolytic,5mg,tablet,at bedtime,OD
+Lorazepam,Anxiolytic,1mg,tablet,at bedtime,OD
+Ativan 1,Anxiolytic,1mg,tablet,at bedtime,OD
+Levetiracetam,Anticonvulsant,500mg,tablet,after food,BD
+Levera 500,Anticonvulsant,500mg,tablet,after food,BD
+Calcium Carbonate,Mineral Supplement,500mg,tablet,after food,BD
+Shelcal 500,Mineral Supplement,500mg,tablet,after food,BD
+Vitamin D3,Vitamin,60000IU,capsule,after food,weekly
+Calcirol,Vitamin,60000IU,sachet/capsule,after food,weekly
+Uprise-D3 60k,Vitamin,60000IU,capsule,after food,weekly
+Becosules,Multivitamin,1 cap,capsule,after food,OD
+Zincovit,Multivitamin/Mineral,1 tab,tablet,after food,OD
+Neurobion Forte,Vitamin B-Complex,1 tab,tablet,after food,OD
+Methylcobalamin,Vitamin B12,1500mcg,tablet,after food,OD
+Nurokind-OD,Vitamin B12,1500mcg,tablet,after food,OD
+Ferrous Ascorbate,Iron Supplement,100mg,tablet,after food,OD
+Orofer-XT,Iron Supplement,100mg,tablet,after food,OD
+Livogen-Z,Iron Supplement,1 tab,tablet,after food,OD
+Folic Acid,Vitamin,5mg,tablet,after food,OD
+Folvite 5,Vitamin,5mg,tablet,after food,OD
+Vitamin C,Antioxidant,500mg,chewable tablet,after food,OD
+Limcee 500,Antioxidant,500mg,chewable tablet,after food,OD
+Celin 500,Antioxidant,500mg,chewable tablet,after food,OD
+Lactulose,Laxative/Stool Softener,10ml,syrup,at bedtime,OD
+Duphalac,Laxative/Stool Softener,15ml,syrup,at bedtime,OD
+Cremaffin,Laxative,15ml,syrup,at bedtime,OD
+Bisacodyl,Laxative,5mg,tablet,at bedtime,OD
+Dulcolax 5,Laxative,5mg,tablet,at bedtime,OD
+Isabgol,Bulk Laxative,2 tsp,powder,at bedtime,OD
+Docusate Sodium,Stool Softener,100mg,capsule,at bedtime,OD
+Colace,Stool Softener,100mg,capsule,at bedtime,OD
+Chymoral Forte,Anti-inflammatory/Enzyme,1 tab,tablet,before food,TDS
+Trypsin-Chymotrypsin,Enzyme,1 tab,tablet,before food,TDS
+Papain,Enzyme,50mg,tablet,before food,BD
+Hyoscine Butylbromide,Antispasmodic,10mg,tablet,after food,TDS
+Buscopan 10,Antispasmodic,10mg,tablet,after food,TDS
+Drotaverine,Antispasmodic,40mg,tablet,after food,TDS
+Drotin 40,Antispasmodic,40mg,tablet,after food,TDS
+Mebeverine,Antispasmodic,135mg,tablet,before food,TDS
+Colospa 135,Antispasmodic,135mg,tablet,before food,TDS
+Propranolol,Beta Blocker,20mg,tablet,after food,BD
+Inderal 20,Beta Blocker,20mg,tablet,after food,BD
+Digoxin,Cardiac Glycoside,0.25mg,tablet,after food,OD
+Lanoxin 0.25,Cardiac Glycoside,0.25mg,tablet,after food,OD
+Nitroglycerin,Vasodilator,2.6mg,tablet,after food,BD
+Monotrate 20,Vasodilator,20mg,tablet,after food,BD
+Isosorbide Mononitrate,Vasodilator,20mg,tablet,after food,BD
+Thyroxine,Hormone Replacement,50mcg,tablet,empty stomach,OD
+Thyronorm 50,Hormone Replacement,50mcg,tablet,empty stomach,OD
+Eltroxin 50,Hormone Replacement,50mcg,tablet,empty stomach,OD
+Hydrocortisone,Corticosteroid,10mg,tablet,with food,BD
+Prednisolone,Corticosteroid,5mg,tablet,after food,OD
+Wysolone 5,Corticosteroid,5mg,tablet,after food,OD
+Wysolone 10,Corticosteroid,10mg,tablet,after food,OD
+Dexamethasone,Corticosteroid,0.5mg,tablet,after food,BD
+Dexona,Corticosteroid,0.5mg,tablet,after food,BD
+Methylprednisolone,Corticosteroid,4mg,tablet,after food,OD
+Medrol 4,Corticosteroid,4mg,tablet,after food,OD
+Budesonide,Inhaled Steroid,200mcg,inhaler,any time,BD
+Budecort 200,Inhaled Steroid,200mcg,inhaler,any time,BD
+Salbutamol,Bronchodilator,2mg,tablet,after food,TDS
+Asthalin 2,Bronchodilator,2mg,tablet,after food,TDS
+Levocetirizine,Antihistamine,5mg,tablet,at bedtime,OD
+Levocet 5,Antihihistamine,5mg,tablet,at bedtime,OD
+Cetirizine,Antihistamine,10mg,tablet,at bedtime,OD
+Cetzine 10,Antihistamine,10mg,tablet,at bedtime,OD
+Fexofenadine,Antihistamine,120mg,tablet,after food,OD
+Allegra 120,Antihistamine,120mg,tablet,after food,OD
+Montelukast,Leukotriene Antagonist,10mg,tablet,at bedtime,OD
+Montair 10,Leukotriene Antagonist,10mg,tablet,at bedtime,OD
+Montair-LC,Antiallergic,10mg/5mg,tablet,at bedtime,OD
+Bilastine,Antihistamine,20mg,tablet,before food,OD
+Bilashine 20,Antihistamine,20mg,tablet,before food,OD
+Potassium Chloride,Electrolyte,500mg,syrup/tablet,after food,BD
+Potklor,Electrolyte,15ml,syrup,after food,BD
+Oral Rehydration Salts,Electrolyte,1 sachet,sachet,any time,PRN
+Electral,Electrolyte,1 sachet,sachet,any time,PRN
+Probiotic,Gut Flora,1 cap,capsule,after food,BD
+Darolac,Probiotic,1 cap,capsule,after food,BD
+Econorm,Probiotic,1 sachet,sachet,after food,BD
+Sporlac-DS,Probiotic,1 tab,tablet,after food,BD
+Bifilac,Probiotic,1 cap,capsule,after food,BD
+Glucosamine,Joint Health,750mg,tablet,after food,BD
+Jointace-DN,Joint Health,1 tab,tablet,after food,OD
+Diacerein,Anti-osteoarthritis,50mg,capsule,after food,OD
+Methotrexate,DMARD,7.5mg,tablet,weekly,weekly
+Hydrochloroquine,DMARD,200mg,tablet,after food,BD
+HCQS 200,DMARD,200mg,tablet,after food,BD
+Sulfasalazine,DMARD,500mg,tablet,after food,BD
+Saaz 500,DMARD,500mg,tablet,after food,BD
+Allopurinol,Antigout,100mg,tablet,after food,OD
+Zyloric 100,Antigout,100mg,tablet,after food,OD
+Febuxostat,Antigout,40mg,tablet,after food,OD
+Febutaz 40,Antigout,40mg,tablet,after food,OD
+Colchicine,Antigout,0.5mg,tablet,after food,BD
+Tamsulosin,Alpha Blocker/Prostate,0.4mg,capsule,after food,OD
+Urimax 0.4,Alpha Blocker/Prostate,0.4mg,capsule,after food,OD
+Silodosin,Alpha Blocker/Prostate,8mg,capsule,after food,OD
+Silofast 8,Alpha Blocker/Prostate,8mg,capsule,after food,OD
+Finasteride,5-Alpha Reductase Inhibitor,5mg,tablet,after food,OD
+Fincar 5,5-Alpha Reductase Inhibitor,5mg,tablet,after food,OD
+Cranberry Extract,Urinary Health,300mg,tablet,after food,BD
+Urifast,Urinary Antiseptic,100mg,tablet,after food,BD
+Nitrofurantoin,Antibacterial,100mg,tablet,after food,BD
+Niftran 100,Antibacterial,100mg,tablet,after food,BD
+Co-trimoxazole,Antimicrobial,960mg,tablet,after food,BD
+Bactrim DS,Antimicrobial,960mg,tablet,after food,BD
+Fluconazole,Antifungal,150mg,tablet,after food,weekly
+Forcan 150,Antifungal,150mg,tablet,after food,weekly
+Itraconazole,Antifungal,100mg,capsule,after food,BD
+Canditral 100,Antifungal,100mg,capsule,after food,BD
+Terbinafine,Antifungal,250mg,tablet,after food,OD
+Tyza 250,Antifungal,250mg,tablet,after food,OD
+Acyclovir,Antiviral,400mg,tablet,after food,5 times a day
+Acivir 400,Antiviral,400mg,tablet,after food,5 times a day
+Valacyclovir,Antiviral,1000mg,tablet,after food,TDS
+Valcivir 1000,Antiviral,1000mg,tablet,after food,TDS
+Albendazole,Anthelmintic,400mg,tablet,at bedtime,stat
+Zentel 400,Anthelmintic,400mg,tablet,at bedtime,stat
+Ivermectin,Antiparasitic,12mg,tablet,empty stomach,stat
+Ivecop 12,Antiparasitic,12mg,tablet,empty stomach,stat
+Metadoxine,Hepatoprotective,500mg,tablet,after food,BD
+Vibact,Probiotic,1 cap,capsule,after food,BD
+Liv 52,Herbal/Hepatic,1 tab,tablet,after food,BD
+Udiliv 300,Bile Acid,300mg,tablet,after food,BD
+Ursodeoxycholic Acid,Bile Acid,300mg,tablet,after food,BD
+Povidone Iodine,Antiseptic,5%,gargle/ointment,any time,TDS
+Betadine,Antiseptic,5%,gargle/ointment,any time,TDS
+Silver Sulfadiazine,Topical Antimicrobial,1%,cream,any time,BD
+Silverex,Topical Antimicrobial,1%,cream,any time,BD
+Mupirocin,Topical Antibiotic,2%,ointment,any time,TDS
+Bactroban,Topical Antibiotic,2%,ointment,any time,TDS
+Fusidic Acid,Topical Antibiotic,2%,cream,any time,BD
+Fucidin,Topical Antibiotic,2%,cream,any time,BD
+Triamcinolone,Topical Steroid,0.1%,paste,after food,TDS
+Kenacort 0.1%,Topical Steroid,0.1%,paste,after food,TDS
+Chlorhexidine,Antiseptic Mouthwash,0.2%,mouthwash,after food,BD
+Hexidine,Antiseptic Mouthwash,0.2%,mouthwash,after food,BD
+Potassium Citrate,Urinary Alkalinizer,15ml,syrup,after food,TDS
+Cital,Urinary Alkalinizer,15ml,syrup,after food,TDS
+Alkasol,Urinary Alkalinizer,15ml,syrup,after food,TDS
+Coenzyme Q10,Antioxidant,100mg,capsule,after food,OD
+Omega 3 Fish Oil,Fatty Acid,1000mg,capsule,after food,OD
+Maxepa,Fatty Acid,1000mg,capsule,after food,OD
+Melatonin,Sleep Aid,3mg,tablet,at bedtime,OD
+Meloset 3,Sleep Aid,3mg,tablet,at bedtime,OD
+Piracetam,Nootropic,800mg,tablet,after food,BD
+Nootropil 800,Nootropic,800mg,tablet,after food,BD
+Citicoline,Neuroprotective,500mg,tablet,after food,BD
+Ceham 500,Neuroprotective,500mg,tablet,after food,BD
+Ginkgo Biloba,Supplements,120mg,tablet,after food,OD
+Bilovas 120,Supplements,120mg,tablet,after food,OD
+Levosulpiride,Prokinetic,25mg,tablet,before food,TDS
+Lesuride 25,Prokinetic,25mg,tablet,before food,TDS
+Itopride,Prokinetic,50mg,tablet,before food,TDS
+Ganaton 50,Prokinetic,50mg,tablet,before food,TDS
+Mesalamine,Anti-inflammatory/Bowel,400mg,tablet,after food,TDS
+Mesacol 400,Anti-inflammatory/Bowel,400mg,tablet,after food,TDS
+Rifaximin,Antibiotic/Gut,400mg,tablet,after food,BD
+Rifagut 400,Antibiotic/Gut,400mg,tablet,after food,BD
+Sodium Bicarbonate,Antacid,500mg,tablet,after food,TDS
+Sodalint,Antacid,500mg,tablet,after food,TDS
+Polyethylene Glycol,Laxative,17g,powder,morning,OD
+Peglec,Laxative,1 sachet,powder,morning,OD
+Prasugrel,Antiplatelet,10mg,tablet,after food,OD
+Prasita 10,Antiplatelet,10mg,tablet,after food,OD
+Ticagrelor,Antiplatelet,90mg,tablet,after food,BD
+Brilinta 90,Antiplatelet,90mg,tablet,after food,BD
+Ivabradine,Heart Rate Reducer,5mg,tablet,with food,BD
+Coralan 5,Heart Rate Reducer,5mg,tablet,with food,BD
+Sacubitril/Valsartan,ARNI,50mg,tablet,after food,BD
+Vymada 50,ARNI,50mg,tablet,after food,BD
+Cilnidipine,Calcium Channel Blocker,10mg,tablet,after food,OD
+Cilacar 10,Calcium Channel Blocker,10mg,tablet,after food,OD
+Nebivolol,Beta Blocker,5mg,tablet,after food,OD
+Nebicard 5,Beta Blocker,5mg,tablet,after food,OD
+Doxazosin,Alpha Blocker,2mg,tablet,at bedtime,OD
+Doxacard 2,Alpha Blocker,2mg,tablet,at bedtime,OD
+Clonidine,Centrally Acting Antihypertensive,100mcg,tablet,after food,BD
+Catapres 100,Centrally Acting Antihypertensive,100mcg,tablet,after food,BD
+Labetalol,Alpha/Beta Blocker,100mg,tablet,after food,BD
+Gravidol 100,Alpha/Beta Blocker,100mg,tablet,after food,BD
+Hydralazine,Vasodilator,25mg,tablet,after food,TDS
+Nepresol 25,Vasodilator,25mg,tablet,after food,TDS
+Hydrochlorothiazide,Diuretic,12.5mg,tablet,morning,OD
+Aquazide 12.5,Diuretic,12.5mg,tablet,morning,OD
+Chlorthalidone,Diuretic,12.5mg,tablet,morning,OD
+Thalizide 12.5,Diuretic,12.5mg,tablet,morning,OD
+Metolazone,Diuretic,2.5mg,tablet,morning,OD
+Zaroxolyn 2.5,Diuretic,2.5mg,tablet,morning,OD
+Indapamide,Diuretic,1.5mg,tablet,morning,OD
+Natrilix-SR,Diuretic,1.5mg,tablet,morning,OD
+Glipizide,Antidiabetic,5mg,tablet,before food,BD
+Glynase 5,Antidiabetic,5mg,tablet,before food,BD
+Gliclazide,Antidiabetic,60mg,tablet,before food,OD
+Diamicron-XR,Antidiabetic,60mg,tablet,before food,OD
+Pioglitazone,Antidiabetic,15mg,tablet,after food,OD
+Pioz 15,Antidiabetic,15mg,tablet,after food,OD
+Teneligliptin,Antidiabetic,20mg,tablet,after food,OD
+Tenebite 20,Antidiabetic,20mg,tablet,after food,OD
+Linagliptin,Antidiabetic,5mg,tablet,after food,OD
+Trajenta 5,Antidiabetic,5mg,tablet,after food,OD
+Acarbose,Alpha Glucosidase Inhibitor,50mg,tablet,with food,TDS
+Glucobay 50,Alpha Glucosidase Inhibitor,50mg,tablet,with food,TDS
+Voglibose,Alpha Glucosidase Inhibitor,0.2mg,tablet,before food,TDS
+Volibo 0.2,Alpha Glucosidase Inhibitor,0.2mg,tablet,before food,TDS
+Fenofibrate,Lipid Lowering,145mg,tablet,with food,OD
+Lipicard 145,Lipid Lowering,145mg,tablet,with food,OD
+Gemfibrozil,Lipid Lowering,600mg,tablet,before food,BD
+Lopid 600,Lipid Lowering,600mg,tablet,before food,BD
+Ezetimibe,Cholesterol Absorption Inhibitor,10mg,tablet,after food,OD
+Ezentia 10,Cholesterol Absorption Inhibitor,10mg,tablet,after food,OD
+Saroglitazar,Dual PPAR Agonist,4mg,tablet,after food,OD
+Lipaglyn 4,Dual PPAR Agonist,4mg,tablet,after food,OD
+Potassium Citrate/Magnesium Citrate,Urinary Health,10ml,syrup,after food,BD
+Potrate-MB6,Urinary Health,1 tab,tablet,after food,BD

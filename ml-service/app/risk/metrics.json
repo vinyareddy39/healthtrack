@@ -1,0 +1,66 @@
+{
+  "dataset_type": "SYNTHETIC_SIMULATED",
+  "n_samples": 2500,
+  "test_samples": 500,
+  "roc_auc": 0.9372,
+  "brier_score": 0.0645,
+  "log_loss": 0.2087,
+  "calibration_curve": [
+    {
+      "predicted": 0.15522913065619406,
+      "empirical": 0.25
+    },
+    {
+      "predicted": 0.25673525559600757,
+      "empirical": 0.08333333333333333
+    },
+    {
+      "predicted": 0.3563047143697049,
+      "empirical": 0.2857142857142857
+    },
+    {
+      "predicted": 0.46293681963440925,
+      "empirical": 0.25
+    },
+    {
+      "predicted": 0.543665664295768,
+      "empirical": 0.5555555555555556
+    },
+    {
+      "predicted": 0.6483536226938774,
+      "empirical": 0.7222222222222222
+    },
+    {
+      "predicted": 0.7559045294272696,
+      "empirical": 0.7727272727272727
+    },
+    {
+      "predicted": 0.850397664161902,
+      "empirical": 0.8723404255319149
+    },
+    {
+      "predicted": 0.981519195662241,
+      "empirical": 0.9799426934097422
+    }
+  ],
+  "feature_coefficients": {
+    "miss_rate_3d": 1.0034743584270187,
+    "miss_rate_7d": 0.302345083748025,
+    "longest_gap_hours": 0.8307533024871929,
+    "avg_delay_mins": 0.6416950779388895,
+    "evening_miss_rate": -0.10211343551438257,
+    "weekend_miss_rate": 0.0777721342644899,
+    "hours_since_discharge": -0.04164129368414416,
+    "snooze_count": 0.7082015097597264
+  },
+  "features": [
+    "miss_rate_3d",
+    "miss_rate_7d",
+    "longest_gap_hours",
+    "avg_delay_mins",
+    "evening_miss_rate",
+    "weekend_miss_rate",
+    "hours_since_discharge",
+    "snooze_count"
+  ]
+}

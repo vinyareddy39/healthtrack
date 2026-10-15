@@ -1,0 +1,30 @@
+{
+  "name": "recovertrack-monorepo",
+  "version": "1.0.0",
+  "description": "RecoverTrack - Post-surgery medication scheduling, reminders and adherence risk tracking at home",
+  "private": true,
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "scripts": {
+    "install:all": "npm install && cd server && npm install && cd ../client && npm install",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "dev:ml": "cd ml-service && python -m uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload",
+    "test:server": "cd server && npm test",
+    "test:ml": "cd ml-service && pytest",
+    "eval": "python eval/run_eval.py"
+  },
+  "keywords": [
+    "medication",
+    "adherence",
+    "post-surgery",
+    "ocr",
+    "trocr",
+    "pwa",
+    "healthcare"
+  ],
+  "author": "RecoverTrack Team",
+  "license": "MIT"
+}

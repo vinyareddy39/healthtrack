@@ -1,0 +1,822 @@
+[
+  {
+    "image_id": "eval_clear_01",
+    "filename": "eval_clear_01.png",
+    "is_degraded": false,
+    "condition": "clear",
+    "ground_truth": {
+      "id": "rx_01",
+      "doctor": "Dr. Sarah Jenkins, MD (Orthopedic Surgery)",
+      "patient": "Patient Fictional #1",
+      "date": "12-Oct-2026",
+      "medicines": [
+        {
+          "drug": "Dolo 650",
+          "strength": "650mg",
+          "dose": "1 tablet",
+          "frequency": "TDS",
+          "duration": "5 days",
+          "food": "after food",
+          "quantity": 15
+        },
+        {
+          "drug": "Pantop 40",
+          "strength": "40mg",
+          "dose": "1 tablet",
+          "frequency": "OD",
+          "duration": "7 days",
+          "food": "before food",
+          "quantity": 7
+        },
+        {
+          "drug": "Augmentin 625",
+          "strength": "625mg",
+          "dose": "1 tablet",
+          "frequency": "BD",
+          "duration": "5 days",
+          "food": "after food",
+          "quantity": 10
+        }
+      ]
+    }
+  },
+  {
+    "image_id": "eval_clear_02",
+    "filename": "eval_clear_02.png",
+    "is_degraded": false,
+    "condition": "clear",
+    "ground_truth": {
+      "id": "rx_02",
+      "doctor": "Dr. Rajesh Sharma, MS (General Surgery)",
+      "patient": "Patient Fictional #2",
+      "date": "12-Oct-2026",
+      "medicines": [
+        {
+          "drug": "Tramadol",
+          "strength": "50mg",
+          "dose": "1 capsule",
+          "frequency": "BD",
+          "duration": "3 days",
+          "food": "after food",
+          "quantity": 6
+        },
+        {
+          "drug": "Ondansetron",
+          "strength": "4mg",
+          "dose": "1 tablet",
+          "frequency": "TDS",
+          "duration": "3 days",
+          "food": "before food",
+          "quantity": 9
+        },
+        {
+          "drug": "Dulcolax 5",
+          "strength": "5mg",
+          "dose": "1 tablet",
+          "frequency": "OD",
+          "duration": "5 days",
+          "food": "at bedtime",
+          "quantity": 5
+        }
+      ]
+    }
+  },
+  {
+    "image_id": "eval_clear_03",
+    "filename": "eval_clear_03.png",
+    "is_degraded": false,
+    "condition": "clear",
+    "ground_truth": {
+      "id": "rx_03",
+      "doctor": "Dr. Elena Rostova, MD (Cardiothoracic Surgery)",
+      "patient": "Patient Fictional #3",
+      "date": "12-Oct-2026",
+      "medicines": [
+        {
+          "drug": "Aspirin",
+          "strength": "75mg",
+          "dose": "1 tablet",
+          "frequency": "OD",
+          "duration": "30 days",
+          "food": "after food",
+          "quantity": 30
+        },
+        {
+          "drug": "Atorvastatin",
+          "strength": "20mg",
+          "dose": "1 tablet",
+          "frequency": "OD",
+          "duration": "30 days",
+          "food": "at bedtime",
+          "quantity": 30
+        },
+        {
+          "drug": "Metoprolol",
+          "strength": "25mg",
+          "dose": "1 tablet",
+          "frequency": "BD",
+          "duration": "14 days",
+          "food": "after food",
+          "quantity": 28
+        }
+      ]
+    }
+  },
+  {
+    "image_id": "eval_clear_04",
+    "filename": "eval_clear_04.png",
+    "is_degraded": false,
+    "condition": "clear",
+    "ground_truth": {
+      "id": "rx_04",
+      "doctor": "Dr. Anand Verma, MD (Surgical Gastroenterology)",
+      "patient": "Patient Fictional #4",
+      "date": "12-Oct-2026",
+      "medicines": [
+        {
+          "drug": "Cefixime",
+          "strength": "200mg",
+          "dose": "1 tablet",
+          "frequency": "BD",
+          "duration": "7 days",
+          "food": "after food",
+          "quantity": 14
+        },
+        {
+          "drug": "Metronidazole",
+          "strength": "400mg",
+          "dose": "1 tablet",
+          "frequency": "TDS",
+          "duration": "5 days",
+          "food": "after food",
+          "quantity": 15
+        },
+        {
+          "drug": "Pan 40",
+          "strength": "40mg",
+          "dose": "1 tablet",
+          "frequency": "OD",
+          "duration": "10 days",
+          "food": "before food",
+          "quantity": 10
+        }
+      ]
+    }
+  },
+  {
+    "image_id": "eval_clear_05",
+    "filename": "eval_clear_05.png",
+    "is_degraded": false,
+    "condition": "clear",
+    "ground_truth": {
+      "id": "rx_05",
+      "doctor": "Dr. Marcus Vance, MD (Spine Surgery)",
+      "patient": "Patient Fictional #5",
+      "date": "12-Oct-2026",
+      "medicines": [
+        {
+          "drug": "Pregabalin",
+          "strength": "75mg",
+          "dose": "1 capsule",
+          "frequency": "OD",
+          "duration": "14 days",
+          "food": "at bedtime",
+          "quantity": 14
+        },
+        {
+          "drug": "Thiocolchicoside",
+          "strength": "4mg",
+          "dose": "1 capsule",
+          "frequency": "BD",
+          "duration": "5 days",
+          "food": "after food",
+          "quantity": 10
+        },
+        {
+          "drug": "Paracetamol",
+          "strength": "650mg",
+          "dose": "1 tablet",
+          "frequency": "TDS",
+          "duration": "5 days",
+          "food": "after food",
+          "quantity": 15
+        }
+      ]
+    }
+  },
+  {
+    "image_id": "eval_clear_06",
+    "filename": "eval_clear_06.png",
+    "is_degraded": false,
+    "condition": "clear",
+    "ground_truth": {
+      "id": "rx_06",
+      "doctor": "Dr. Priya Nair, MS (Obstetrics & Gynecology)",
+      "patient": "Patient Fictional #6",
+      "date": "12-Oct-2026",
+      "medicines": [
+        {
+          "drug": "Combiflam",
+          "strength": "400mg/325mg",
+          "dose": "1 tablet",
+          "frequency": "BD",
+          "duration": "4 days",
+          "food": "after food",
+          "quantity": 8
+        },
+        {
+          "drug": "Shelcal 500",
+          "strength": "500mg",
+          "dose": "1 tablet",
+          "frequency": "BD",
+          "duration": "30 days",
+          "food": "after food",
+          "quantity": 60
+        },
+        {
+          "drug": "Orofer-XT",
+          "strength": "100mg",
+          "dose": "1 tablet",
+          "frequency": "OD",
+          "duration": "30 days",
+          "food": "after food",
+          "quantity": 30
+        }
+      ]
+    }
+  },
+  {
+    "image_id": "eval_clear_07",
+    "filename": "eval_clear_07.png",
+    "is_degraded": false,
+    "condition": "clear",
+    "ground_truth": {
+      "id": "rx_07",
+      "doctor": "Dr. David Kim, MD (Urology)",
+      "patient": "Patient Fictional #7",
+      "date": "12-Oct-2026",
+      "medicines": [
+        {
+          "drug": "Tamsulosin",
+          "strength": "0.4mg",
+          "dose": "1 capsule",
+          "frequency": "OD",
+          "duration": "14 days",
+          "food": "after food",
+          "quantity": 14
+        },
+        {
+          "drug": "Ciprofloxacin",
+          "strength": "500mg",
+          "dose": "1 tablet",
+          "frequency": "BD",
+          "duration": "5 days",
+          "food": "after food",
+          "quantity": 10
+        },
+        {
+          "drug": "Cital",
+          "strength": "15ml",
+          "dose": "1 tablespoon",
+          "frequency": "TDS",
+          "duration": "7 days",
+          "food": "after food",
+          "quantity": 1
+        }
+      ]
+    }
+  },
+  {
+    "image_id": "eval_clear_08",
+    "filename": "eval_clear_08.png",
+    "is_degraded": false,
+    "condition": "clear",
+    "ground_truth": {
+      "id": "rx_08",
+      "doctor": "Dr. Kavita Desai, MD (Internal Medicine)",
+      "patient": "Patient Fictional #8",
+      "date": "12-Oct-2026",
+      "medicines": [
+        {
+          "drug": "Telmisartan",
+          "strength": "40mg",
+          "dose": "1 tablet",
+          "frequency": "OD",
+          "duration": "30 days",
+          "food": "after food",
+          "quantity": 30
+        },
+        {
+          "drug": "Metformin",
+          "strength": "500mg",
+          "dose": "1 tablet",
+          "frequency": "BD",
+          "duration": "30 days",
+          "food": "after food",
+          "quantity": 60
+        },
+        {
+          "drug": "Ecosprin 75",
+          "strength": "75mg",
+          "dose": "1 tablet",
+          "frequency": "OD",
+          "duration": "30 days",
+          "food": "after food",
+          "quantity": 30
+        }
+      ]
+    }
+  },
+  {
+    "image_id": "eval_clear_09",
+    "filename": "eval_clear_09.png",
+    "is_degraded": false,
+    "condition": "clear",
+    "ground_truth": {
+      "id": "rx_09",
+      "doctor": "Dr. Arthur Pendelton, MD (Vascular Surgery)",
+      "patient": "Patient Fictional #9",
+      "date": "12-Oct-2026",
+      "medicines": [
+        {
+          "drug": "Eliquis",
+          "strength": "5mg",
+          "dose": "1 tablet",
+          "frequency": "BD",
+          "duration": "14 days",
+          "food": "with food",
+          "quantity": 28
+        },
+        {
+          "drug": "Paracetamol",
+          "strength": "650mg",
+          "dose": "1 tablet",
+          "frequency": "TDS",
+          "duration": "5 days",
+          "food": "after food",
+          "quantity": 15
+        },
+        {
+          "drug": "Rabeprazole",
+          "strength": "20mg",
+          "dose": "1 tablet",
+          "frequency": "OD",
+          "duration": "14 days",
+          "food": "before food",
+          "quantity": 14
+        }
+      ]
+    }
+  },
+  {
+    "image_id": "eval_clear_10",
+    "filename": "eval_clear_10.png",
+    "is_degraded": false,
+    "condition": "clear",
+    "ground_truth": {
+      "id": "rx_10",
+      "doctor": "Dr. Sunita Rao, MS (ENT)",
+      "patient": "Patient Fictional #10",
+      "date": "12-Oct-2026",
+      "medicines": [
+        {
+          "drug": "Amoxicillin",
+          "strength": "500mg",
+          "dose": "1 capsule",
+          "frequency": "TDS",
+          "duration": "5 days",
+          "food": "after food",
+          "quantity": 15
+        },
+        {
+          "drug": "Montair-LC",
+          "strength": "10mg/5mg",
+          "dose": "1 tablet",
+          "frequency": "OD",
+          "duration": "7 days",
+          "food": "at bedtime",
+          "quantity": 7
+        },
+        {
+          "drug": "Betadine",
+          "strength": "5%",
+          "dose": "1 gargle",
+          "frequency": "TDS",
+          "duration": "5 days",
+          "food": "after food",
+          "quantity": 1
+        }
+      ]
+    }
+  },
+  {
+    "image_id": "eval_degraded_01",
+    "filename": "eval_degraded_01.png",
+    "is_degraded": true,
+    "condition": "degraded_skew",
+    "ground_truth": {
+      "id": "rx_01",
+      "doctor": "Dr. Sarah Jenkins, MD (Orthopedic Surgery)",
+      "patient": "Patient Fictional #1",
+      "date": "12-Oct-2026",
+      "medicines": [
+        {
+          "drug": "Dolo 650",
+          "strength": "650mg",
+          "dose": "1 tablet",
+          "frequency": "TDS",
+          "duration": "5 days",
+          "food": "after food",
+          "quantity": 15
+        },
+        {
+          "drug": "Pantop 40",
+          "strength": "40mg",
+          "dose": "1 tablet",
+          "frequency": "OD",
+          "duration": "7 days",
+          "food": "before food",
+          "quantity": 7
+        },
+        {
+          "drug": "Augmentin 625",
+          "strength": "625mg",
+          "dose": "1 tablet",
+          "frequency": "BD",
+          "duration": "5 days",
+          "food": "after food",
+          "quantity": 10
+        }
+      ]
+    }
+  },
+  {
+    "image_id": "eval_degraded_02",
+    "filename": "eval_degraded_02.png",
+    "is_degraded": true,
+    "condition": "degraded_blur",
+    "ground_truth": {
+      "id": "rx_02",
+      "doctor": "Dr. Rajesh Sharma, MS (General Surgery)",
+      "patient": "Patient Fictional #2",
+      "date": "12-Oct-2026",
+      "medicines": [
+        {
+          "drug": "Tramadol",
+          "strength": "50mg",
+          "dose": "1 capsule",
+          "frequency": "BD",
+          "duration": "3 days",
+          "food": "after food",
+          "quantity": 6
+        },
+        {
+          "drug": "Ondansetron",
+          "strength": "4mg",
+          "dose": "1 tablet",
+          "frequency": "TDS",
+          "duration": "3 days",
+          "food": "before food",
+          "quantity": 9
+        },
+        {
+          "drug": "Dulcolax 5",
+          "strength": "5mg",
+          "dose": "1 tablet",
+          "frequency": "OD",
+          "duration": "5 days",
+          "food": "at bedtime",
+          "quantity": 5
+        }
+      ]
+    }
+  },
+  {
+    "image_id": "eval_degraded_03",
+    "filename": "eval_degraded_03.png",
+    "is_degraded": true,
+    "condition": "degraded_glare",
+    "ground_truth": {
+      "id": "rx_03",
+      "doctor": "Dr. Elena Rostova, MD (Cardiothoracic Surgery)",
+      "patient": "Patient Fictional #3",
+      "date": "12-Oct-2026",
+      "medicines": [
+        {
+          "drug": "Aspirin",
+          "strength": "75mg",
+          "dose": "1 tablet",
+          "frequency": "OD",
+          "duration": "30 days",
+          "food": "after food",
+          "quantity": 30
+        },
+        {
+          "drug": "Atorvastatin",
+          "strength": "20mg",
+          "dose": "1 tablet",
+          "frequency": "OD",
+          "duration": "30 days",
+          "food": "at bedtime",
+          "quantity": 30
+        },
+        {
+          "drug": "Metoprolol",
+          "strength": "25mg",
+          "dose": "1 tablet",
+          "frequency": "BD",
+          "duration": "14 days",
+          "food": "after food",
+          "quantity": 28
+        }
+      ]
+    }
+  },
+  {
+    "image_id": "eval_degraded_04",
+    "filename": "eval_degraded_04.png",
+    "is_degraded": true,
+    "condition": "degraded_low_light",
+    "ground_truth": {
+      "id": "rx_04",
+      "doctor": "Dr. Anand Verma, MD (Surgical Gastroenterology)",
+      "patient": "Patient Fictional #4",
+      "date": "12-Oct-2026",
+      "medicines": [
+        {
+          "drug": "Cefixime",
+          "strength": "200mg",
+          "dose": "1 tablet",
+          "frequency": "BD",
+          "duration": "7 days",
+          "food": "after food",
+          "quantity": 14
+        },
+        {
+          "drug": "Metronidazole",
+          "strength": "400mg",
+          "dose": "1 tablet",
+          "frequency": "TDS",
+          "duration": "5 days",
+          "food": "after food",
+          "quantity": 15
+        },
+        {
+          "drug": "Pan 40",
+          "strength": "40mg",
+          "dose": "1 tablet",
+          "frequency": "OD",
+          "duration": "10 days",
+          "food": "before food",
+          "quantity": 10
+        }
+      ]
+    }
+  },
+  {
+    "image_id": "eval_degraded_05",
+    "filename": "eval_degraded_05.png",
+    "is_degraded": true,
+    "condition": "degraded_faint_print",
+    "ground_truth": {
+      "id": "rx_05",
+      "doctor": "Dr. Marcus Vance, MD (Spine Surgery)",
+      "patient": "Patient Fictional #5",
+      "date": "12-Oct-2026",
+      "medicines": [
+        {
+          "drug": "Pregabalin",
+          "strength": "75mg",
+          "dose": "1 capsule",
+          "frequency": "OD",
+          "duration": "14 days",
+          "food": "at bedtime",
+          "quantity": 14
+        },
+        {
+          "drug": "Thiocolchicoside",
+          "strength": "4mg",
+          "dose": "1 capsule",
+          "frequency": "BD",
+          "duration": "5 days",
+          "food": "after food",
+          "quantity": 10
+        },
+        {
+          "drug": "Paracetamol",
+          "strength": "650mg",
+          "dose": "1 tablet",
+          "frequency": "TDS",
+          "duration": "5 days",
+          "food": "after food",
+          "quantity": 15
+        }
+      ]
+    }
+  },
+  {
+    "image_id": "eval_degraded_06",
+    "filename": "eval_degraded_06.png",
+    "is_degraded": true,
+    "condition": "degraded_skew",
+    "ground_truth": {
+      "id": "rx_06",
+      "doctor": "Dr. Priya Nair, MS (Obstetrics & Gynecology)",
+      "patient": "Patient Fictional #6",
+      "date": "12-Oct-2026",
+      "medicines": [
+        {
+          "drug": "Combiflam",
+          "strength": "400mg/325mg",
+          "dose": "1 tablet",
+          "frequency": "BD",
+          "duration": "4 days",
+          "food": "after food",
+          "quantity": 8
+        },
+        {
+          "drug": "Shelcal 500",
+          "strength": "500mg",
+          "dose": "1 tablet",
+          "frequency": "BD",
+          "duration": "30 days",
+          "food": "after food",
+          "quantity": 60
+        },
+        {
+          "drug": "Orofer-XT",
+          "strength": "100mg",
+          "dose": "1 tablet",
+          "frequency": "OD",
+          "duration": "30 days",
+          "food": "after food",
+          "quantity": 30
+        }
+      ]
+    }
+  },
+  {
+    "image_id": "eval_degraded_07",
+    "filename": "eval_degraded_07.png",
+    "is_degraded": true,
+    "condition": "degraded_blur",
+    "ground_truth": {
+      "id": "rx_07",
+      "doctor": "Dr. David Kim, MD (Urology)",
+      "patient": "Patient Fictional #7",
+      "date": "12-Oct-2026",
+      "medicines": [
+        {
+          "drug": "Tamsulosin",
+          "strength": "0.4mg",
+          "dose": "1 capsule",
+          "frequency": "OD",
+          "duration": "14 days",
+          "food": "after food",
+          "quantity": 14
+        },
+        {
+          "drug": "Ciprofloxacin",
+          "strength": "500mg",
+          "dose": "1 tablet",
+          "frequency": "BD",
+          "duration": "5 days",
+          "food": "after food",
+          "quantity": 10
+        },
+        {
+          "drug": "Cital",
+          "strength": "15ml",
+          "dose": "1 tablespoon",
+          "frequency": "TDS",
+          "duration": "7 days",
+          "food": "after food",
+          "quantity": 1
+        }
+      ]
+    }
+  },
+  {
+    "image_id": "eval_degraded_08",
+    "filename": "eval_degraded_08.png",
+    "is_degraded": true,
+    "condition": "degraded_glare",
+    "ground_truth": {
+      "id": "rx_08",
+      "doctor": "Dr. Kavita Desai, MD (Internal Medicine)",
+      "patient": "Patient Fictional #8",
+      "date": "12-Oct-2026",
+      "medicines": [
+        {
+          "drug": "Telmisartan",
+          "strength": "40mg",
+          "dose": "1 tablet",
+          "frequency": "OD",
+          "duration": "30 days",
+          "food": "after food",
+          "quantity": 30
+        },
+        {
+          "drug": "Metformin",
+          "strength": "500mg",
+          "dose": "1 tablet",
+          "frequency": "BD",
+          "duration": "30 days",
+          "food": "after food",
+          "quantity": 60
+        },
+        {
+          "drug": "Ecosprin 75",
+          "strength": "75mg",
+          "dose": "1 tablet",
+          "frequency": "OD",
+          "duration": "30 days",
+          "food": "after food",
+          "quantity": 30
+        }
+      ]
+    }
+  },
+  {
+    "image_id": "eval_degraded_09",
+    "filename": "eval_degraded_09.png",
+    "is_degraded": true,
+    "condition": "degraded_low_light",
+    "ground_truth": {
+      "id": "rx_09",
+      "doctor": "Dr. Arthur Pendelton, MD (Vascular Surgery)",
+      "patient": "Patient Fictional #9",
+      "date": "12-Oct-2026",
+      "medicines": [
+        {
+          "drug": "Eliquis",
+          "strength": "5mg",
+          "dose": "1 tablet",
+          "frequency": "BD",
+          "duration": "14 days",
+          "food": "with food",
+          "quantity": 28
+        },
+        {
+          "drug": "Paracetamol",
+          "strength": "650mg",
+          "dose": "1 tablet",
+          "frequency": "TDS",
+          "duration": "5 days",
+          "food": "after food",
+          "quantity": 15
+        },
+        {
+          "drug": "Rabeprazole",
+          "strength": "20mg",
+          "dose": "1 tablet",
+          "frequency": "OD",
+          "duration": "14 days",
+          "food": "before food",
+          "quantity": 14
+        }
+      ]
+    }
+  },
+  {
+    "image_id": "eval_degraded_10",
+    "filename": "eval_degraded_10.png",
+    "is_degraded": true,
+    "condition": "degraded_faint_print",
+    "ground_truth": {
+      "id": "rx_10",
+      "doctor": "Dr. Sunita Rao, MS (ENT)",
+      "patient": "Patient Fictional #10",
+      "date": "12-Oct-2026",
+      "medicines": [
+        {
+          "drug": "Amoxicillin",
+          "strength": "500mg",
+          "dose": "1 capsule",
+          "frequency": "TDS",
+          "duration": "5 days",
+          "food": "after food",
+          "quantity": 15
+        },
+        {
+          "drug": "Montair-LC",
+          "strength": "10mg/5mg",
+          "dose": "1 tablet",
+          "frequency": "OD",
+          "duration": "7 days",
+          "food": "at bedtime",
+          "quantity": 7
+        },
+        {
+          "drug": "Betadine",
+          "strength": "5%",
+          "dose": "1 gargle",
+          "frequency": "TDS",
+          "duration": "5 days",
+          "food": "after food",
+          "quantity": 1
+        }
+      ]
+    }
+  }
+]

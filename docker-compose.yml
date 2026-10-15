@@ -1,0 +1,100 @@
+version: '3.8'
+
+services:
+  mongo:
+    image: mongo:6.0
+    container_name: recovertrack-mongo
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+    networks:
+      - recovertrack-net
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  ml-service:
+    build:
+      context: ./ml-service
+      dockerfile: Dockerfile
+    container_name: recovertrack-ml
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      - ML_PORT=8000
+      - SHARED_SECRET=${ML_SHARED_SECRET:-recovertrack_internal_ml_secret_key_884930}
+      - OCR_MODEL_HANDWRITTEN=microsoft/trocr-base-handwritten
+      - OCR_MODEL_PRINTED=microsoft/trocr-base-printed
+      - USE_GPU=false
+      - MAX_CONCURRENT_OCR=1
+    networks:
+      - recovertrack-net
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 20s
+      timeout: 10s
+      retries: 3
+
+  server:
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    container_name: recovertrack-server
+    restart: unless-stopped
+    ports:
+      - "5000:5000"
+    environment:
+      - NODE_ENV=production
+      - PORT=5000
+      - CLIENT_URL=http://localhost:5173
+      - MONGODB_URI=mongodb://mongo:27017/recovertrack
+      - ENCRYPTION_KEY=${ENCRYPTION_KEY:-0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef}
+      - JWT_SECRET=${JWT_SECRET:-super_secure_jwt_secret_change_in_production_1234567890}
+      - JWT_EXPIRES_IN=15m
+      - REFRESH_TOKEN_SECRET=${REFRESH_TOKEN_SECRET:-super_secure_refresh_token_secret_1234567890}
+      - REFRESH_TOKEN_EXPIRES_IN=7d
+      - ML_SERVICE_URL=http://ml-service:8000
+      - ML_SHARED_SECRET=${ML_SHARED_SECRET:-recovertrack_internal_ml_secret_key_884930}
+      - VAPID_PUBLIC_KEY=${VAPID_PUBLIC_KEY}
+      - VAPID_PRIVATE_KEY=${VAPID_PRIVATE_KEY}
+      - VAPID_SUBJECT=${VAPID_SUBJECT:-mailto:admin@recovertrack.local}
+      - SMTP_HOST=${SMTP_HOST}
+      - SMTP_PORT=${SMTP_PORT:-587}
+      - SMTP_USER=${SMTP_USER}
+      - SMTP_PASS=${SMTP_PASS}
+      - SMTP_FROM=${SMTP_FROM}
+      - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN}
+      - ENABLE_META_WHATSAPP_API=${ENABLE_META_WHATSAPP_API:-false}
+    depends_on:
+      mongo:
+        condition: service_healthy
+      ml-service:
+        condition: service_healthy
+    networks:
+      - recovertrack-net
+
+  client:
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    container_name: recovertrack-client
+    restart: unless-stopped
+    ports:
+      - "5173:80"
+    depends_on:
+      - server
+    networks:
+      - recovertrack-net
+
+networks:
+  recovertrack-net:
+    driver: bridge
+
+volumes:
+  mongo_data:
+    driver: local

@@ -1,0 +1,404 @@
+{
+  "total_evaluated": 20,
+  "clear_subset": {
+    "count": 10,
+    "mean_accuracy": 0.833,
+    "mean_wer": 0.039,
+    "mean_review_time_s": 36.83,
+    "mean_proc_time_ms": 347.016
+  },
+  "degraded_subset": {
+    "count": 10,
+    "mean_accuracy": 0.822,
+    "mean_wer": 0.039,
+    "mean_review_time_s": 89.96,
+    "mean_proc_time_ms": 332.578
+  },
+  "overall": {
+    "mean_accuracy": 0.828,
+    "mean_wer": 0.039,
+    "mean_review_time_s": 63.395
+  },
+  "detailed_results": [
+    {
+      "image_id": "eval_clear_01",
+      "condition": "clear",
+      "is_degraded": false,
+      "overall_accuracy": 0.833,
+      "field_accuracy": {
+        "drug": 1.0,
+        "strength": 1.0,
+        "frequency": 1.0,
+        "duration": 1.0,
+        "food": 1.0,
+        "quantity": 0.0
+      },
+      "wer": 0.167,
+      "processing_time_ms": 523.18,
+      "simulated_review_time_seconds": 36.5,
+      "extracted_medicines_count": 3,
+      "ground_truth_medicines_count": 3
+    },
+    {
+      "image_id": "eval_clear_02",
+      "condition": "clear",
+      "is_degraded": false,
+      "overall_accuracy": 0.833,
+      "field_accuracy": {
+        "drug": 1.0,
+        "strength": 1.0,
+        "frequency": 1.0,
+        "duration": 1.0,
+        "food": 1.0,
+        "quantity": 0.0
+      },
+      "wer": 0.0,
+      "processing_time_ms": 322.82,
+      "simulated_review_time_seconds": 36.5,
+      "extracted_medicines_count": 3,
+      "ground_truth_medicines_count": 3
+    },
+    {
+      "image_id": "eval_clear_03",
+      "condition": "clear",
+      "is_degraded": false,
+      "overall_accuracy": 0.833,
+      "field_accuracy": {
+        "drug": 1.0,
+        "strength": 1.0,
+        "frequency": 1.0,
+        "duration": 1.0,
+        "food": 1.0,
+        "quantity": 0.0
+      },
+      "wer": 0.0,
+      "processing_time_ms": 324.06,
+      "simulated_review_time_seconds": 36.5,
+      "extracted_medicines_count": 3,
+      "ground_truth_medicines_count": 3
+    },
+    {
+      "image_id": "eval_clear_04",
+      "condition": "clear",
+      "is_degraded": false,
+      "overall_accuracy": 0.833,
+      "field_accuracy": {
+        "drug": 1.0,
+        "strength": 1.0,
+        "frequency": 1.0,
+        "duration": 1.0,
+        "food": 1.0,
+        "quantity": 0.0
+      },
+      "wer": 0.0,
+      "processing_time_ms": 337.91,
+      "simulated_review_time_seconds": 36.5,
+      "extracted_medicines_count": 3,
+      "ground_truth_medicines_count": 3
+    },
+    {
+      "image_id": "eval_clear_05",
+      "condition": "clear",
+      "is_degraded": false,
+      "overall_accuracy": 0.833,
+      "field_accuracy": {
+        "drug": 1.0,
+        "strength": 1.0,
+        "frequency": 1.0,
+        "duration": 1.0,
+        "food": 1.0,
+        "quantity": 0.0
+      },
+      "wer": 0.0,
+      "processing_time_ms": 323.81,
+      "simulated_review_time_seconds": 36.5,
+      "extracted_medicines_count": 3,
+      "ground_truth_medicines_count": 3
+    },
+    {
+      "image_id": "eval_clear_06",
+      "condition": "clear",
+      "is_degraded": false,
+      "overall_accuracy": 0.778,
+      "field_accuracy": {
+        "drug": 1.0,
+        "strength": 0.667,
+        "frequency": 1.0,
+        "duration": 1.0,
+        "food": 1.0,
+        "quantity": 0.0
+      },
+      "wer": 0.111,
+      "processing_time_ms": 322.81,
+      "simulated_review_time_seconds": 36.5,
+      "extracted_medicines_count": 3,
+      "ground_truth_medicines_count": 3
+    },
+    {
+      "image_id": "eval_clear_07",
+      "condition": "clear",
+      "is_degraded": false,
+      "overall_accuracy": 0.889,
+      "field_accuracy": {
+        "drug": 1.0,
+        "strength": 1.0,
+        "frequency": 1.0,
+        "duration": 1.0,
+        "food": 1.0,
+        "quantity": 0.333
+      },
+      "wer": 0.0,
+      "processing_time_ms": 324.21,
+      "simulated_review_time_seconds": 36.5,
+      "extracted_medicines_count": 3,
+      "ground_truth_medicines_count": 3
+    },
+    {
+      "image_id": "eval_clear_08",
+      "condition": "clear",
+      "is_degraded": false,
+      "overall_accuracy": 0.833,
+      "field_accuracy": {
+        "drug": 1.0,
+        "strength": 1.0,
+        "frequency": 1.0,
+        "duration": 1.0,
+        "food": 1.0,
+        "quantity": 0.0
+      },
+      "wer": 0.0,
+      "processing_time_ms": 330.41,
+      "simulated_review_time_seconds": 36.5,
+      "extracted_medicines_count": 3,
+      "ground_truth_medicines_count": 3
+    },
+    {
+      "image_id": "eval_clear_09",
+      "condition": "clear",
+      "is_degraded": false,
+      "overall_accuracy": 0.833,
+      "field_accuracy": {
+        "drug": 1.0,
+        "strength": 1.0,
+        "frequency": 1.0,
+        "duration": 1.0,
+        "food": 1.0,
+        "quantity": 0.0
+      },
+      "wer": 0.0,
+      "processing_time_ms": 329.62,
+      "simulated_review_time_seconds": 36.5,
+      "extracted_medicines_count": 3,
+      "ground_truth_medicines_count": 3
+    },
+    {
+      "image_id": "eval_clear_10",
+      "condition": "clear",
+      "is_degraded": false,
+      "overall_accuracy": 0.833,
+      "field_accuracy": {
+        "drug": 1.0,
+        "strength": 0.667,
+        "frequency": 1.0,
+        "duration": 1.0,
+        "food": 1.0,
+        "quantity": 0.333
+      },
+      "wer": 0.111,
+      "processing_time_ms": 331.33,
+      "simulated_review_time_seconds": 39.8,
+      "extracted_medicines_count": 3,
+      "ground_truth_medicines_count": 3
+    },
+    {
+      "image_id": "eval_degraded_01",
+      "condition": "degraded_skew",
+      "is_degraded": true,
+      "overall_accuracy": 0.833,
+      "field_accuracy": {
+        "drug": 1.0,
+        "strength": 1.0,
+        "frequency": 1.0,
+        "duration": 1.0,
+        "food": 1.0,
+        "quantity": 0.0
+      },
+      "wer": 0.167,
+      "processing_time_ms": 349.07,
+      "simulated_review_time_seconds": 66.2,
+      "extracted_medicines_count": 3,
+      "ground_truth_medicines_count": 3
+    },
+    {
+      "image_id": "eval_degraded_02",
+      "condition": "degraded_blur",
+      "is_degraded": true,
+      "overall_accuracy": 0.833,
+      "field_accuracy": {
+        "drug": 1.0,
+        "strength": 1.0,
+        "frequency": 1.0,
+        "duration": 1.0,
+        "food": 1.0,
+        "quantity": 0.0
+      },
+      "wer": 0.0,
+      "processing_time_ms": 328.15,
+      "simulated_review_time_seconds": 95.9,
+      "extracted_medicines_count": 3,
+      "ground_truth_medicines_count": 3
+    },
+    {
+      "image_id": "eval_degraded_03",
+      "condition": "degraded_glare",
+      "is_degraded": true,
+      "overall_accuracy": 0.778,
+      "field_accuracy": {
+        "drug": 1.0,
+        "strength": 1.0,
+        "frequency": 1.0,
+        "duration": 0.667,
+        "food": 1.0,
+        "quantity": 0.0
+      },
+      "wer": 0.0,
+      "processing_time_ms": 318.65,
+      "simulated_review_time_seconds": 95.9,
+      "extracted_medicines_count": 3,
+      "ground_truth_medicines_count": 3
+    },
+    {
+      "image_id": "eval_degraded_04",
+      "condition": "degraded_low_light",
+      "is_degraded": true,
+      "overall_accuracy": 0.833,
+      "field_accuracy": {
+        "drug": 1.0,
+        "strength": 1.0,
+        "frequency": 1.0,
+        "duration": 1.0,
+        "food": 1.0,
+        "quantity": 0.0
+      },
+      "wer": 0.0,
+      "processing_time_ms": 335.04,
+      "simulated_review_time_seconds": 95.9,
+      "extracted_medicines_count": 3,
+      "ground_truth_medicines_count": 3
+    },
+    {
+      "image_id": "eval_degraded_05",
+      "condition": "degraded_faint_print",
+      "is_degraded": true,
+      "overall_accuracy": 0.833,
+      "field_accuracy": {
+        "drug": 1.0,
+        "strength": 1.0,
+        "frequency": 1.0,
+        "duration": 1.0,
+        "food": 1.0,
+        "quantity": 0.0
+      },
+      "wer": 0.0,
+      "processing_time_ms": 327.61,
+      "simulated_review_time_seconds": 95.9,
+      "extracted_medicines_count": 3,
+      "ground_truth_medicines_count": 3
+    },
+    {
+      "image_id": "eval_degraded_06",
+      "condition": "degraded_skew",
+      "is_degraded": true,
+      "overall_accuracy": 0.778,
+      "field_accuracy": {
+        "drug": 1.0,
+        "strength": 0.667,
+        "frequency": 1.0,
+        "duration": 1.0,
+        "food": 1.0,
+        "quantity": 0.0
+      },
+      "wer": 0.111,
+      "processing_time_ms": 331.99,
+      "simulated_review_time_seconds": 66.2,
+      "extracted_medicines_count": 3,
+      "ground_truth_medicines_count": 3
+    },
+    {
+      "image_id": "eval_degraded_07",
+      "condition": "degraded_blur",
+      "is_degraded": true,
+      "overall_accuracy": 0.889,
+      "field_accuracy": {
+        "drug": 1.0,
+        "strength": 1.0,
+        "frequency": 1.0,
+        "duration": 1.0,
+        "food": 1.0,
+        "quantity": 0.333
+      },
+      "wer": 0.0,
+      "processing_time_ms": 356.83,
+      "simulated_review_time_seconds": 95.9,
+      "extracted_medicines_count": 3,
+      "ground_truth_medicines_count": 3
+    },
+    {
+      "image_id": "eval_degraded_08",
+      "condition": "degraded_glare",
+      "is_degraded": true,
+      "overall_accuracy": 0.778,
+      "field_accuracy": {
+        "drug": 1.0,
+        "strength": 1.0,
+        "frequency": 1.0,
+        "duration": 0.667,
+        "food": 1.0,
+        "quantity": 0.0
+      },
+      "wer": 0.0,
+      "processing_time_ms": 327.16,
+      "simulated_review_time_seconds": 95.9,
+      "extracted_medicines_count": 3,
+      "ground_truth_medicines_count": 3
+    },
+    {
+      "image_id": "eval_degraded_09",
+      "condition": "degraded_low_light",
+      "is_degraded": true,
+      "overall_accuracy": 0.833,
+      "field_accuracy": {
+        "drug": 1.0,
+        "strength": 1.0,
+        "frequency": 1.0,
+        "duration": 1.0,
+        "food": 1.0,
+        "quantity": 0.0
+      },
+      "wer": 0.0,
+      "processing_time_ms": 331.58,
+      "simulated_review_time_seconds": 95.9,
+      "extracted_medicines_count": 3,
+      "ground_truth_medicines_count": 3
+    },
+    {
+      "image_id": "eval_degraded_10",
+      "condition": "degraded_faint_print",
+      "is_degraded": true,
+      "overall_accuracy": 0.833,
+      "field_accuracy": {
+        "drug": 1.0,
+        "strength": 0.667,
+        "frequency": 1.0,
+        "duration": 1.0,
+        "food": 1.0,
+        "quantity": 0.333
+      },
+      "wer": 0.111,
+      "processing_time_ms": 319.7,
+      "simulated_review_time_seconds": 95.9,
+      "extracted_medicines_count": 3,
+      "ground_truth_medicines_count": 3
+    }
+  ]
+}
